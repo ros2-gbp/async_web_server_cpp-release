@@ -10,7 +10,7 @@ HttpServer::HttpServer(const std::string &address, const std::string &port,
 {
 
   boost::asio::ip::tcp::resolver resolver(io_service_);
-  boost::asio::ip::tcp::resolver::query query(address, port);
+  boost::asio::ip::tcp::resolver::query query(address, port, boost::asio::ip::resolver_query_base::flags());
   boost::asio::ip::tcp::endpoint endpoint = *resolver.resolve(query);
   acceptor_.open(endpoint.protocol());
   acceptor_.set_option(boost::asio::ip::tcp::acceptor::reuse_address(true));
@@ -18,6 +18,9 @@ HttpServer::HttpServer(const std::string &address, const std::string &port,
   acceptor_.listen();
 }
 
+HttpServer::~HttpServer() {
+  stop();
+}
 
 void HttpServer::run()
 {
@@ -49,12 +52,15 @@ void HttpServer::handle_accept(const boost::system::error_code &e)
 
 void HttpServer::stop()
 {
-  acceptor_.cancel();
-  acceptor_.close();
+  if(acceptor_.is_open()) {
+    acceptor_.cancel();
+    acceptor_.close();
+  }
   io_service_.stop();
   // Wait for all threads in the pool to exit.
   for (std::size_t i = 0; i < threads_.size(); ++i)
     threads_[i]->join();
+  threads_.clear();
 }
 
 }
