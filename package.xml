@@ -1,6 +1,6 @@
 <package>
   <name>async_web_server_cpp</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Asynchronous Web/WebSocket Server in C++</description>
 
   <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
@@ -19,4 +19,9 @@
 
   <run_depend>libssl-dev</run_depend>
   <run_depend>boost</run_depend>
+
+  <test_depend>rostest</test_depend>
+  <test_depend>rospy</test_depend>
+  <test_depend>roslib</test_depend>
+  <run_depend>python-websocket</run_depend>
 </package>
