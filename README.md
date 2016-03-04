@@ -5,8 +5,8 @@ The packages in the `async_web_server_cpp` repository were released into the `ja
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
-- release repository: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
+- release repository: https://github.com/gt-rail-release/async_web_server_cpp-release.git
 - rosdistro version: `0.0.2-0`
 - old version: `0.0.2-0`
 - new version: `0.0.3-0`
@@ -26,8 +26,8 @@ The packages in the `async_web_server_cpp` repository were released into the `in
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
-- release repository: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
+- release repository: https://github.com/gt-rail-release/async_web_server_cpp-release.git
 - rosdistro version: `0.0.2-0`
 - old version: `0.0.2-0`
 - new version: `0.0.3-0`
@@ -47,7 +47,7 @@ The packages in the `async_web_server_cpp` repository were released into the `ja
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -68,8 +68,8 @@ The packages in the `async_web_server_cpp` repository were released into the `in
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
-- release repository: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
+- release repository: https://github.com/gt-rail-release/async_web_server_cpp-release.git
 - rosdistro version: `0.0.1-0`
 - old version: `0.0.1-0`
 - new version: `0.0.2-0`
@@ -89,8 +89,8 @@ The packages in the `async_web_server_cpp` repository were released into the `hy
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
-- release repository: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
+- release repository: https://github.com/gt-rail-release/async_web_server_cpp-release.git
 - rosdistro version: `0.0.1-0`
 - old version: `0.0.1-0`
 - new version: `0.0.2-0`
@@ -110,7 +110,7 @@ The packages in the `async_web_server_cpp` repository were released into the `in
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -131,7 +131,7 @@ The packages in the `async_web_server_cpp` repository were released into the `hy
 The `async_web_server_cpp` package was released.
 
 Version of package(s) in repository `async_web_server_cpp`:
-- upstream repository: https://github.com/WPI-RAIL/async_web_server_cpp.git
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
