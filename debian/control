@@ -1,0 +1,12 @@
+Source: ros-kinetic-async-web-server-cpp
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libssl-dev, ros-kinetic-catkin, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rostest
+Homepage: http://ros.org/wiki/async_web_server_cpp
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-async-web-server-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libssl-dev, python-websocket
+Description: Asynchronous Web/WebSocket Server in C++
