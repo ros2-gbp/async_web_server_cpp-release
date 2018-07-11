@@ -1,3 +1,26 @@
+## async_web_server_cpp (melodic) - 0.0.3-0
+
+The packages in the `async_web_server_cpp` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic async_web_server_cpp --new-track` on `Wed, 11 Jul 2018 16:16:54 -0000`
+
+The `async_web_server_cpp` package was released.
+
+Version of package(s) in repository `async_web_server_cpp`:
+
+- upstream repository: https://github.com/GT-RAIL/async_web_server_cpp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.6`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## async_web_server_cpp (kinetic) - 0.0.3-0
 
 The packages in the `async_web_server_cpp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic async_web_server_cpp --new-track` on `Wed, 21 Dec 2016 17:16:56 -0000`
