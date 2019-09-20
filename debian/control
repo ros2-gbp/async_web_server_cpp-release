@@ -1,0 +1,12 @@
+Source: ros-dashing-async-web-server-cpp
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <russell.toris@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libssl-dev, python3-websocket, ros-dashing-ament-cmake-ros, ros-dashing-launch-testing, ros-dashing-ros-workspace
+Homepage: http://ros.org/wiki/async_web_server_cpp
+Standards-Version: 3.9.2
+
+Package: ros-dashing-async-web-server-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libssl-dev, ros-dashing-ros-workspace
+Description: Asynchronous Web/WebSocket Server in C++
