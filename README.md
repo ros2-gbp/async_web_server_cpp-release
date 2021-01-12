@@ -1,3 +1,26 @@
+## async_web_server_cpp (noetic) - 1.0.1-1
+
+The packages in the `async_web_server_cpp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic --edit-track async_web_server_cpp` on `Tue, 12 Jan 2021 15:16:05 -0000`
+
+The `async_web_server_cpp` package was released.
+
+Version of package(s) in repository `async_web_server_cpp`:
+
+- upstream repository: https://github.com/fkie/async_web_server_cpp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## async_web_server_cpp (melodic) - 1.0.1-1
 
 The packages in the `async_web_server_cpp` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic --edit-track async_web_server_cpp` on `Tue, 12 Jan 2021 14:56:41 -0000`
