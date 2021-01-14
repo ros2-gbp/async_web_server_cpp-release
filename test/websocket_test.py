@@ -1,7 +1,6 @@
-#! /usr/bin/env python
+#!/usr/bin/env python3
 
 import websocket
-import rospy
 import unittest
 import time
 
@@ -33,6 +32,4 @@ class TestWebsocket(unittest.TestCase):
 if __name__ == '__main__':
     time.sleep(1) # ensure server is up
 
-    import rostest
-    rospy.init_node('websocket_test')
-    rostest.rosrun('async_web_server_cpp', 'websocket', TestWebsocket)
+    unittest.main()
