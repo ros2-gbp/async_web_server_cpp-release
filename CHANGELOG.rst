@@ -2,11 +2,10 @@
 Changelog for package async_web_server_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.0 (2021-01-14)
+1.0.3 (2021-02-13)
 ------------------
-* New ROS 2 port
-  - ROS 2 releases will have version numbers 2.x
-  - ROS 1 releases will continue with version numbers 1.x
+* Add Windows 10 compatibility (`#1 <https://github.com/fkie/async_web_server_cpp/issues/1>`_)
+* Contributors: Pranav Dhulipala, Timo Röhling
 
 1.0.2 (2021-01-12)
 ------------------

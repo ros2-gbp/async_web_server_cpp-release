@@ -1,10 +1,11 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python
 
 import sys
 if sys.version_info > (3,):
     import http.client as httplib
 else:
     import httplib
+import rospy
 import unittest
 import time
 
@@ -47,7 +48,7 @@ class TestSimpleHttpRequests(unittest.TestCase):
         response = self.conn.getresponse()
         self.assertEqual(404, response.status)
 
-    def test_default_action2(self):
+    def test_default_action(self):
         self.conn.request("GET", "/a_static_response")
         response = self.conn.getresponse()
         self.assertEqual(200, response.status)
@@ -109,4 +110,6 @@ class TestSimpleHttpRequests(unittest.TestCase):
 if __name__ == '__main__':
     time.sleep(1) # ensure server is up
 
-    unittest.main()
+    import rostest
+    rospy.init_node('simple_http_requests_test')
+    rostest.rosrun('async_web_server_cpp', 'simple_http_requests', TestSimpleHttpRequests)

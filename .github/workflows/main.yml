@@ -7,7 +7,8 @@ jobs:
     strategy:
       matrix:
         env:
-          - {ROS_DISTRO: foxy}
+          - {ROS_DISTRO: melodic}
+          - {ROS_DISTRO: noetic}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
