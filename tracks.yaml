@@ -270,4 +270,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/fkie/async_web_server_cpp.git
-    version: :{auto}
+    version: 2.0.0
+    version_saved: :{auto}
