@@ -1,3 +1,26 @@
+## async_web_server_cpp (humble) - 2.0.1-1
+
+The packages in the `async_web_server_cpp` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble async_web_server_cpp --edit-track` on `Thu, 04 Sep 2025 09:45:28 -0000`
+
+The `async_web_server_cpp` package was released.
+
+Version of package(s) in repository `async_web_server_cpp`:
+
+- upstream repository: https://github.com/fkie/async_web_server_cpp.git
+- release repository: https://github.com/ros2-gbp/async_web_server_cpp-release.git
+- rosdistro version: `2.0.0-3`
+- old version: `2.0.0-3`
+- new version: `2.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## async_web_server_cpp (noetic) - 1.0.3-1
 
 The packages in the `async_web_server_cpp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -e --ros-distro noetic async_web_server_cpp` on `Sat, 13 Feb 2021 13:27:15 -0000`
