@@ -317,7 +317,7 @@ tracks:
     name: upstream
     patches: null
     release_inc: '5'
-    release_repo_url: https://github.com/fkie-release/async_web_server_cpp-release.git
+    release_repo_url: null
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
