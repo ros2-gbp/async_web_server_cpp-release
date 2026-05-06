@@ -1,3 +1,26 @@
+## async_web_server_cpp (rolling) - 2.0.2-1
+
+The packages in the `async_web_server_cpp` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling async_web_server_cpp` on `Wed, 06 May 2026 20:48:22 -0000`
+
+The `async_web_server_cpp` package was released.
+
+Version of package(s) in repository `async_web_server_cpp`:
+
+- upstream repository: https://github.com/fkie/async_web_server_cpp.git
+- release repository: https://github.com/ros2-gbp/async_web_server_cpp-release.git
+- rosdistro version: `2.0.1-2`
+- old version: `2.0.1-2`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## async_web_server_cpp (rolling) - 2.0.1-1
 
 The packages in the `async_web_server_cpp` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling async_web_server_cpp --edit-track` on `Thu, 04 Sep 2025 09:53:58 -0000`
